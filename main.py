@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()  # only used for local dev
 
-TOKEN = os.getenv("tok")
+TOKEN = os.getenv("token")
 MOD_IDS = os.getenv("MOD_IDS", "").split(",")  # Comma-separated user IDs
 
 intents = discord.Intents.default()
